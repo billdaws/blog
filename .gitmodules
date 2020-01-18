@@ -1,0 +1,7 @@
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule "public"]
+	path = public
+	url = https://billdaws:f4eeaefc3b1742ca4967bd6d5137b6d8e4b0b8df@github.com/billdaws/billdaws.github.io.git
+	branch = master
