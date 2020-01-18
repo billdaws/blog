@@ -26,7 +26,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "ramblings etc."
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -41,6 +40,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
   [[params.social]]
+    name = "email"
+    url = "mailto:bill.d.daws@gmail.com"
+
+  [[params.social]]
     name = "github"
     url = "https://github.com/billdaws"
 
@@ -49,6 +52,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   [[menu.main]]
     name = "Posts"
     url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Notes"
+    url = "notes/"
     weight = 10
 
   [[menu.main]]
